@@ -1,6 +1,8 @@
 <?php
     header('Content-type: text/html');
     header('Access-Control-Allow-Origin: *');
+	$protocol = strpos(strtolower($_SERVER['SERVER_PROTOCOL']),'https') === FALSE ? 'http' : 'https';
+	$SERVER_URL = $protocol."://".$_SERVER['HTTP_HOST'];
 ?>
 <!DOCTYPE html>
 <html>

@@ -31,7 +31,7 @@ function genInt()
 }
 
 function Submit(text,username){
-    httpGet("https://openhashdatabase-finlaydag33k.c9users.io/?method=plaintext&username=" + username + "&text=" + text);
+    httpGet("https://ohd.finlaydag33k.nl/?method=plaintext&username=" + username + "&text=" + text);
 }
 
 function Dowork(){

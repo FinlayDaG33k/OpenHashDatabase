@@ -1,3 +1,8 @@
+# END OF LIFE!
+Due to the lack of interest in the project, I decided to stop the project.
+If you want me to continue the project, just send me a mail at contact@finlaydag33k.nl
+
+
 # OpenHashDatabase
 Sourcecode of the OpenHashDatabase project by FinlayDaG33k
 

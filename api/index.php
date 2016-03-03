@@ -1,5 +1,6 @@
 <?php
-
+    header('Content-type: text/html');
+    header('Access-Control-Allow-Origin: *');
 include('../config/config.inc.php');
 // Create connection
 $conn = new mysqli($sqlhost, $sqluser, $sqlpassword, $dbname);
